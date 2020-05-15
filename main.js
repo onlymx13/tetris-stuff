@@ -68,7 +68,26 @@ var block_blinker = new Block([0x0700, 0x2220, 0x0700, 0x2220], "cyan");
 var block_bullet = new Block([0x04EE, 0x0CEC, 0x0EE4, 0x06E6], "gray");
 var block_five = new Block([0x0525, 0x0525, 0x0525, 0x0525], "black");
 var block_six = new Block([0xAAA0, 0xE0E0, 0xAAA0, 0xE0E0], "navy");
+// 0000
+// 1110 E
+// 0010 2
+// 0100 4
 
+// 0000
+// 0010 2
+// 1010 A
+// 0110 6
+
+// 0000
+// 0100 4
+// 1000 8
+// 1110 E
+
+// 0000
+// 1100 C
+// 1010 A
+// 1000 8
+var block_glider = new Block([0xE240, 0x2A60, 0x48E0, 0xCA80], "white");
 var block_longlong = new Block([0x000000FF00000000n, 0x0808080808080808n, 0x00000000FF000000n, 0x1010101010101010n], "cyan");
 var blocks = [block_long, block_j, block_l, block_square, block_s, block_t, block_z,
 			  block_colon, block_tub, block_blinker, block_bullet, block_five, block_longlong, block_six];
