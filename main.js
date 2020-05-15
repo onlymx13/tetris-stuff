@@ -67,11 +67,11 @@ var block_tub = new Block([0x0252, 0x0252, 0x0252, 0x0252], "beige");
 var block_blinker = new Block([0x0700, 0x2220, 0x0700, 0x2220], "cyan");
 var block_bullet = new Block([0x04EE, 0x0CEC, 0x0EE4, 0x06E6], "gray");
 var block_five = new Block([0x0525, 0x0525, 0x0525, 0x0525], "black");
-var block_two = new Block([0x2080, 0x8020, 0x2080, 0x8020], "#BA17ED");
 var block_six = new Block([0xAAA0, 0xE0E0, 0xAAA0, 0xE0E0], "navy");
+
 var block_longlong = new Block([0x000000FF00000000n, 0x0808080808080808n, 0x00000000FF000000n, 0x1010101010101010n], "cyan");
 var blocks = [block_long, block_j, block_l, block_square, block_s, block_t, block_z,
-			  block_colon, block_tub, block_blinker, block_bullet, block_five, block_longlong, block_two, block_six];
+			  block_colon, block_tub, block_blinker, block_bullet, block_five, block_longlong, block_six];
 var origPieces = [block_long, block_j, block_l, block_square, block_s, block_t, block_z];
 var nextBlock, currBlock, heldBlock;
 var holdAvailable = true;
