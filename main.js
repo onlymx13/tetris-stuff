@@ -98,7 +98,7 @@ var holdAvailable = true;
 var lockBlock = false;
 var placedSquares = [];
 var queue = [];
-var block_x = 0; var block_y = 0;
+var block_x = 3; var block_y = 0;
 var lastUpdate = new Date().getTime();
 
 function iterateBlockCoords(block, func, ...args) {
@@ -179,7 +179,7 @@ function handleQueue(queue) {
 					}
 					drawHeldBlock();
 					rotation = 0;
-					block_x = 0;
+					block_x = 3;
 					block_y = 0;
 				}
 				break;
@@ -272,7 +272,7 @@ function loseGame() {
 	drawHeldBlock();
 	placedSquares = [];
 	queue = [];
-	block_x = 0; block_y = 0;
+	block_x = 3; block_y = 0;
 	lastUpdate = new Date().getTime();
 }
 
@@ -307,7 +307,7 @@ function mainLoop() {
 		chooseNextBlock();
 		drawNextBlock();
 		rotation = 0;
-		block_x = 0;
+		block_x = 5;
 		block_y = 0;
 		if (!iterateBlockCoords(currBlock.rotations[rotation], isPositionValid).every(x => x)) {
 			loseGame();
