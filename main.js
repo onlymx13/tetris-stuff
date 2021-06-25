@@ -91,7 +91,7 @@ var block_glider1 = new Block([0xE240, 0x2A60, 0x48E0, 0xCA80], "white");
 var block_glider2 = new Block([0x7420,0x3510, 0x2170, 0x4560], "white");
 var block_longlong = new Block([0x000000FF00000000n, 0x0808080808080808n, 0x00000000FF000000n, 0x1010101010101010n], "cyan");
 var blocks = [block_long, block_j, block_l, block_square, block_s, block_t, block_z,
-			  block_colon, block_tub, block_blinker, block_bullet, block_five, block_longlong, block_six, block_glider1, block_glider2];
+			  block_colon, block_tub, block_blinker, block_bullet, block_five, /*block_longlong, */block_six, block_glider1, block_glider2];
 var origPieces = [block_long, block_j, block_l, block_square, block_s, block_t, block_z];
 var nextBlock, currBlock, heldBlock;
 var holdAvailable = true;
